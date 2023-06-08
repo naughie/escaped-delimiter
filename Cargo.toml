@@ -1,0 +1,15 @@
+[package]
+name = "escaped-delimiter"
+version = "0.1.0"
+edition = "2021"
+authors = ["Masato Nakata <masaton@naughie.com>"]
+description = "Iterator of delimited slices with escape characters"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/naughie/escaped-delimiter"
+documentation = "https://docs.rs/escaped-delimiter"
+keywords = ["text", "iterator", "escape"]
+categories = ["rust-patterns", "text-processing"]
+readme = "README.md"
+include = ["src/", "LICENSE-*", "README.md"]
+
+[dependencies]
